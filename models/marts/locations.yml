@@ -2,7 +2,7 @@ models:
   - name: locations
     description: |
       Location dimension table. The grain of the table is one row per location.
-    access: protected
+    access: public
     group: marketing
     config:
       contract:
